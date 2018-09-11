@@ -1,0 +1,374 @@
+@font-face{
+    font-family: gilroylight;
+    src: url(/font/gilroylight.otf) format('truetype');
+
+}
+
+@font-face{
+    font-family: gilroy;
+    src: url(/font/gilroy.otf) format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;  
+    font-family: 'gilroylight', helvetica, sans-serif;
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-family: 'gilroy', sans-serif;
+    font-weight: 600;
+    font-size:8vw;
+    letter-spacing: 1.5vw;
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke-width: 0.2vw;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:4vw;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+
+}
+h3{
+    font-family: 'gilroylight', Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:4vw;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+h4 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:5vw;
+    letter-spacing: 1px;
+    color: #D67E70;
+    text-align: center;
+}
+h5,
+h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:5vw;
+    color:gray;
+    text-align: center;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 4vw;
+    letter-spacing: 0.5px;
+    color: gray;
+}
+
+a{
+    color: gainsboro;
+}
+
+/*WIDESCREEN*/
+
+.widescreen {
+    display: none;
+}
+
+
+/*head de fundo*/
+
+.head1 {
+    height: 125vw;
+    width: 100%;
+    position: absolute;
+    background-clip: border-box;
+    background-color:#D67E70;
+    background-image: url('img/roda-de-coco.jpg');   
+    background-position: center;
+    background-size: cover;
+}
+
+/*rzão*/
+
+.rzao {
+    width: 27vw;
+}
+
+/*linhas*/
+
+.linemenu {
+    height: 8vw;
+    width:20%;
+    padding-left: 85vw;
+    padding-top: 12vw;
+    position: fixed;
+    background-color: transparent;
+
+}
+
+.line25{
+    height: 25vw;
+    width:100%;
+    position: relative;
+    float: left;
+    background-color: transparent;
+}
+
+.line20{
+    height: 20vw;
+    width:100%;
+    position: relative;
+    float: left;
+}
+
+.line15{
+    height: 15vw;
+    width:100%;
+    position: relative;
+    float: left;
+}
+
+.line10{
+    height: 10vw;
+    width:100%;
+    position: relative;
+    float: left;
+}
+
+.line8{
+    height: 8vw;
+    width:100%;
+    position: relative;
+    float: left;
+}
+
+.line5{
+    height: 5vw;
+    width:100%;
+    position: relative;
+    float: left;
+}
+
+.line2{
+    height:2vw;
+    width:100%;
+    position: relative;
+    float: left;
+
+}
+
+/*colunas*/
+
+.div12e51{
+    height: 30vw;
+    width: 12.5%;
+    position: relative;
+    float: left;
+    padding: 0vw 0% 0vw 0%;
+    background-color: transparent;
+}
+
+.div12e52{
+    height: 10vw;
+    width: 12.5%;
+    position: relative;
+    float: left;
+    padding: 0vw 0% 0vw 0%;
+    background-color: transparent;
+}
+
+.div251{
+    height: 40vw;
+    width: 25%;
+    position: relative;
+    float: left;
+    background-color:transparent;
+}
+
+.div252{
+    height: 8vw;
+    width: 25%;
+    position: relative;
+    float: left;
+    padding: 0vw 0% 0vw 0%;
+    background-color: transparent;
+}
+
+.div253{
+    height: 15vw;
+    width: 25%;
+    position: relative;
+    float: left;
+    padding: 0vw 0% 0vw 0%;
+    background-color: transparent;
+}
+
+.div254{
+    height: 15vw;
+    width: 15%;
+    position: relative;
+    float: left;
+    padding: 5vw 5% 5vw 5%;
+    background-color: transparent;
+}
+
+.div501 {
+    height: 30vw;
+    width: 30%;
+    position: relative;
+    float: left;
+    padding: 5vw 9% 5vw 11%;
+    background-color: transparent;
+}
+
+.div502 {
+    height: 8vw;
+    width: 36%;
+    position: relative;
+    float: left;
+    padding: 0vw 6% 0vw 8%;
+    background-color: transparent;
+}
+
+.div503 {
+    height: 20vw;
+    width: 40%;
+    position: relative;
+    float: left;
+    padding: 5vw 5% 5vw 5%;
+    background-color: transparent;
+}
+
+.div504 {
+    height: 5vw;
+    width: 40%;
+    position: relative;
+    float: left;
+    padding: 5vw 5% 5vw 5%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.div751 {
+    height: 20vw;
+    width: 65%;
+    position: relative;
+    float: left;
+    padding: 5vw 5% 5vw 5%;
+    background-color: transparent;
+}
+
+.div752 {
+    height: 10vw;
+    width: 51%;
+    position: relative;
+    float: left;
+    padding: 0vw 12% 0vw 12%;
+    background-color: transparent;
+    text-align: center;
+}
+
+.divfull1 {
+    height: 200vw;
+    width: 76%;
+    position: relative;
+    float: left;
+    background-color:transparent;
+    padding: 4vw 12% 4vw 12%;
+    overflow: scroll;
+}
+
+.divfull2 {
+    height: 32vw;
+    width: 76%;
+    position: relative;
+    float: left;
+    background-color:transparent;
+    padding: 4vw 12% 4vw 12%;
+    overflow: scroll;
+}
+
+.divfull3 {
+    height: 240vw;
+    width: 76%;
+    position: relative;
+    float: left;
+    background-color:transparent;
+    padding: 4vw 12% 4vw 12%;
+    overflow: scroll;
+}
+
+.divfull4 {
+    height: 7vw;
+    width: 76%;
+    position: relative;
+    float: left;
+    background-color:transparent;
+    padding: 4vw 12% 4vw 12%;
+    overflow: scroll;
+}
+
+.divfull5 {
+    height: 350vw;
+    width: 76%;
+    position: relative;
+    float: left;
+    background-color:transparent;
+    padding: 4vw 12% 4vw 12%;
+    overflow: scroll;
+}
+
+.divfull6 {
+    height: 15vw;
+    width: 18%;
+    position: relative;
+    float: left;
+    background-color:transparent;
+    padding: 4vw 41% 4vw 41%;
+    overflow: scroll;
+}
+
+
+
+/*botão para inscrições*/
+
+a.button1{
+    display:inline-block;
+    padding: 1vw 2.5vw 1vw 2.5vw;
+    border:0.3vw solid white;
+    margin:0 0 0 0;
+    border-radius: 0vw;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;
+    color: white;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button1:hover{
+    color:#D67E70;
+    background-color:white;
+    }
+
+
+
+
+
+
+
