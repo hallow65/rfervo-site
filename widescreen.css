@@ -97,7 +97,7 @@ a{
 /*head de fundo*/
 
 .head1 {
-    height: 53vw;
+    height: 54vw;
     width: 100%;
     position: absolute;
     background-image: url('img/roda-de-coco.jpg');   
@@ -317,7 +317,10 @@ a{
     background-color: transparent
 }
 
-.divfull1 {
+
+/* textos explicativos dentro de cada aba */
+
+.divfull1 {  /* Conceito texto */
     height: 25vw;
     width: 70%;
     position: relative;
@@ -327,7 +330,7 @@ a{
     overflow: hidden;
 }
 
-.divfull2 {
+.divfull2 {  /* CoNE texto */
     height: 7vw;
     width: 70%;
     position: relative;
@@ -337,7 +340,7 @@ a{
     overflow: scroll;
 }
 
-.divfull3 {
+.divfull3 {  /* Estrutura texto */
     height: 56vw;
     width: 70%;
     position: relative;
@@ -347,8 +350,8 @@ a{
     overflow: hidden;
 }
 
-.divfull4 {
-    height: 3vw;
+.divfull4 {  /* Links texto */
+    height: 5vw;
     width: 70%;
     position: relative;
     float: left;
@@ -357,7 +360,7 @@ a{
     overflow: hidden;
 }
 
-.divfull5 {
+.divfull5 {  /* CORDe texto */
     height: 90vw;
     width: 70%;
     position: relative;
@@ -367,7 +370,7 @@ a{
     overflow: hidden;
 }
 
-.divfull6 {
+.divfull6 {  /* parceria icones */
     height: 8vw;
     width: 18%;
     position: relative;

@@ -92,7 +92,7 @@ a{
 /*head de fundo*/
 
 .head1 {
-    height: 125vw;
+    height: 135vw;
     width: 100%;
     position: absolute;
     background-clip: border-box;
@@ -273,7 +273,7 @@ a{
 }
 
 .div752 {
-    height: 10vw;
+    height: 30vw;
     width: 51%;
     position: relative;
     float: left;
@@ -282,7 +282,10 @@ a{
     text-align: center;
 }
 
-.divfull1 {
+
+/* textos explicativos dentro de cada aba */
+
+.divfull1 {  /* Conceito texto */
     height: 200vw;
     width: 76%;
     position: relative;
@@ -292,7 +295,7 @@ a{
     overflow: scroll;
 }
 
-.divfull2 {
+.divfull2 {  /* CoNE texto */
     height: 32vw;
     width: 76%;
     position: relative;
@@ -302,7 +305,7 @@ a{
     overflow: scroll;
 }
 
-.divfull3 {
+.divfull3 {  /* Estrutura texto */
     height: 240vw;
     width: 76%;
     position: relative;
@@ -312,8 +315,8 @@ a{
     overflow: scroll;
 }
 
-.divfull4 {
-    height: 7vw;
+.divfull4 {  /* Links texto */
+    height: 22vw;
     width: 76%;
     position: relative;
     float: left;
@@ -322,7 +325,7 @@ a{
     overflow: scroll;
 }
 
-.divfull5 {
+.divfull5 {  /* CORDe texto */
     height: 350vw;
     width: 76%;
     position: relative;
@@ -332,7 +335,7 @@ a{
     overflow: scroll;
 }
 
-.divfull6 {
+.divfull6 {  /* parceria icones */
     height: 15vw;
     width: 18%;
     position: relative;
