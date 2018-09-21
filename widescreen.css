@@ -1,10 +1,10 @@
-@font-face{
+@font-face {
     font-family: gilroylight;
     src: url(/font/gilroylight.otf) format('truetype');
 
 }
 
-@font-face{
+@font-face {
     font-family: gilroy;
     src: url(/font/gilroy.otf) format('truetype');
 }
@@ -21,11 +21,11 @@ body {
     color: white;
 }
 
-img{
+img {
     width: 100%;
 }
 
-h1{
+h1 {
     font-family: 'gilroy', helvetica, sans-serif;
     font-size: 4vw;
     letter-spacing: 1vw;
@@ -35,16 +35,16 @@ h1{
     text-align: center;
 }
 
-h2{
+h2 {
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     font-size: 1.5vw;
     letter-spacing: 1px;
     color: #fff;
     text-align: left;
-
 }
-h3{
+
+h3 {
     font-family: 'gilroylight',Helvetica, sans-serif;
     font-weight: 100;
     font-size:1.3vw;
@@ -70,7 +70,7 @@ h6 {
     text-align: center;
 }
 
-p{
+p {
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     font-size: 1.3vw;
@@ -78,7 +78,7 @@ p{
     color: gray;
 }
 
-a{
+a {
     color: gainsboro;
 }
 
@@ -269,7 +269,7 @@ a{
     background-color: transparent;
 }
 
-.div504 {
+.div504 {  /* Títulos menus */
     height: 4vw;
     width: 10%;
     position: relative;
@@ -341,7 +341,7 @@ a{
 }
 
 .divfull3 {  /* Estrutura texto */
-    height: 56vw;
+    height: 8vw;
     width: 70%;
     position: relative;
     float: left;
@@ -351,7 +351,7 @@ a{
 }
 
 .divfull4 {  /* Links texto */
-    height: 5vw;
+    height: 17vw;
     width: 70%;
     position: relative;
     float: left;

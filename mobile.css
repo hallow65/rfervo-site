@@ -1,10 +1,10 @@
-@font-face{
+@font-face {
     font-family: gilroylight;
     src: url(/font/gilroylight.otf) format('truetype');
 
 }
 
-@font-face{
+@font-face {
     font-family: gilroy;
     src: url(/font/gilroy.otf) format('truetype');
 }
@@ -21,11 +21,11 @@ body {
     color: white;
 }
 
-img{
+img {
     width: 100%;
 }
 
-h1{
+h1 {
     font-family: 'gilroy', sans-serif;
     font-weight: 600;
     font-size:8vw;
@@ -36,7 +36,7 @@ h1{
     text-align: center;
 }
 
-h2{
+h2 {
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     font-size:4vw;
@@ -45,7 +45,7 @@ h2{
     text-align: center;
 
 }
-h3{
+h3 {
     font-family: 'gilroylight', Helvetica, sans-serif;
     font-weight: 100;
     font-size:4vw;
@@ -70,7 +70,7 @@ h6 {
     text-align: center;
 }
 
-p{
+p {
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     font-size: 4vw;
@@ -78,7 +78,7 @@ p{
     color: gray;
 }
 
-a{
+a {
     color: gainsboro;
 }
 
@@ -226,7 +226,7 @@ a{
     background-color: transparent;
 }
 
-.div501 {
+.div501 {  /* rzao imagem */
     height: 30vw;
     width: 30%;
     position: relative;
@@ -235,7 +235,7 @@ a{
     background-color: transparent;
 }
 
-.div502 {
+.div502 {  /* FERVO */
     height: 8vw;
     width: 36%;
     position: relative;
@@ -253,12 +253,12 @@ a{
     background-color: transparent;
 }
 
-.div504 {
+.div504 {  /* Títulos menu */
     height: 5vw;
     width: 40%;
     position: relative;
     float: left;
-    padding: 5vw 5% 5vw 5%;
+    padding: 5vw 5% 5vw 5%;  //
     background-color: transparent;
     overflow: hidden;
 }
@@ -306,7 +306,7 @@ a{
 }
 
 .divfull3 {  /* Estrutura texto */
-    height: 240vw;
+    height: 15vw;
     width: 76%;
     position: relative;
     float: left;
@@ -316,7 +316,7 @@ a{
 }
 
 .divfull4 {  /* Links texto */
-    height: 22vw;
+    height: 55vw;
     width: 76%;
     position: relative;
     float: left;
