@@ -209,7 +209,7 @@ a {
 }
 
 .div253{
-    height: 15vw;
+    height: 19vw;
     width: 25%;
     position: relative;
     float: left;
@@ -254,11 +254,11 @@ a {
 }
 
 .div504 {  /* Títulos menu */
-    height: 5vw;
+    height: 13vw;
     width: 40%;
     position: relative;
     float: left;
-    padding: 5vw 5% 5vw 5%;  //
+    padding: 0vw 5% 6vw 5%;  //
     background-color: transparent;
     overflow: hidden;
 }
