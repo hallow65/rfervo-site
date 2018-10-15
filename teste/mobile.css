@@ -2,12 +2,11 @@
 /* pra celular, telas pequenas */
 
 header {
-	background-color:orange;
-
+	background-color:orange;  /* SandyBrown */
 }
 
 h1 {
-
+	color: orange;
 }
 
 h2 {
@@ -21,7 +20,19 @@ h3{
 h4{
 
 }
-.o-resto {
-	background-color: grey;
+
+h5 {
+	color: orange;
 }
 
+
+.encontro-box,
+.editais-box {
+	background-color: lightgrey;
+}
+
+
+
+.o-resto {
+	background-color: lightgrey;
+}
