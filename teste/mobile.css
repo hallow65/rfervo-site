@@ -10,15 +10,15 @@ h1 {
 }
 
 h2 {
-
+    color: white;
 }
 
 h3{
-
+    
 }
 
 h4{
-
+    color: orange;
 }
 
 h5 {
@@ -27,7 +27,8 @@ h5 {
 
 
 .encontro-box,
-.editais-box {
+.editais-box,
+.corde-box {
 	background-color: lightgrey;
 }
 
