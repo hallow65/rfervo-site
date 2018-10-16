@@ -1,33 +1,72 @@
 /* css file */
 /* pra celular, telas pequenas */
 
+@font-face {
+	font-family: gilroy;
+	src: url(/fontes/gilroy.otf) format('truetype');
+}
+
+@font-face {
+	font-family: : gilroyLight;
+	src: url(/fontes/gilroyLight.otf) format('truetype');
+}
+
+
+
 header {
 	background-color:orange;  /* SandyBrown */
 }
 
-h1 {
+
+h1 {  /* títulos das seções */
 	color: orange;
+	font-family: 'gilroy', Helvetica, sans-serif;
 }
 
-h2 {
+
+h2 {  /* local e data do header */
     color: white;
+    font-family: Helvetica, sans-serif;
 }
 
-h3{
-    
+
+h3{   /* textos dos botões */
+    font-family: 'gilroyLight', Helvetica, sans-serif;    
 }
 
-h4{
+
+h4{  /* subtítulos das seções */
     color: orange;
+    font-family: 'gilroy', Helvetica, sans-serif;
 }
 
-h5 {
+
+h5 {  /* palavras auxiliares aos títulos */
 	color: orange;
+	font-family: 'gilroyLight', Helvetica, sans-serif;
+}
+
+
+h6 {  /* legendas */
+    font-family: Helvetica, sans-serif;
+}
+
+
+p {
+	font-family: Helvetica, sans-serif;
 }
 
 
 .encontro-box,
 .editais-box,
-.corde-box {
+.downloads-box,
+.parceiros-box {
+	
+}
+
+.conteudo-box,
+.local-box,
+.corde-box,
+.contato-box {
 	background-color: lightgrey;
 }
