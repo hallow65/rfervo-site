@@ -57,6 +57,15 @@ p {
 }
 
 
+/* seleciona todas as tags de imagens 
+dentro de classes "cordelicias" */
+.cordelicias img {
+	border-radius:  50%;
+	height: 20vw;
+	width: 20vw;
+}
+
+
 .encontro-box,
 .editais-box,
 .downloads-box,
