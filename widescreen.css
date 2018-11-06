@@ -97,7 +97,7 @@ a {
 /*head de fundo*/
 
 .head1 {
-    height: 54vw;
+    height: 58vw;
     width: 100%;
     position: absolute;
     background-image: url('img/roda-de-coco.jpg');   
@@ -155,7 +155,7 @@ a {
 }
 
 .line8{
-    height: 8vw;
+    height: 3vw;
     width:100%;
     position: relative;
     float: left;
@@ -309,7 +309,7 @@ a {
 }
 
 .div752 {
-    height: 7vw;
+    height: 13vw;
     width: 16%;
     position: relative;
     float: left;
