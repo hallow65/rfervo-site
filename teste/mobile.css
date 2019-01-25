@@ -1,14 +1,53 @@
 /* css file */
 /* pra celular, telas pequenas */
 
+
 @font-face {
-	font-family: gilroy;
-	src: url(/fontes/gilroy.otf) format('truetype');
+	font-family: : 'gilroylight';
+	src: url(./fontes/gilroylight.otf) format('truetype');
 }
 
 @font-face {
-	font-family: : gilroyLight;
-	src: url(/fontes/gilroyLight.otf) format('truetype');
+	font-family: gilroy;
+	src: url(./fontes/gilroy.otf) format('truetype');
+}
+
+
+
+* {
+	/*border: solid black 1pt;*/
+	margin: 0;
+    padding: 0;
+}
+
+
+.banner-logo img {
+	width: 150px;
+	margin: 20px;
+}
+
+header {
+	width: 100%;
+	display: -webkit-flex; /* pro safari */
+	display: flex;
+	
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.banner-content,
+.banner-infos,
+.banner-button {
+	display: -webkit-flex; /* pro safari */
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.banner-infos,
+.banner-button {
+	display: block;
 }
 
 
@@ -30,12 +69,13 @@ h2 {  /* local e data do header */
 }
 
 
-h3{   /* textos dos botões */
-    font-family: 'gilroyLight', Helvetica, sans-serif;    
+h3 {   /* textos dos botões */
+    font-family: 'gilroylight', Helvetica, sans-serif; 
+    /* color: white; */  
 }
 
 
-h4{  /* subtítulos das seções */
+h4 {  /* subtítulos das seções */
     color: orange;
     font-family: 'gilroy', Helvetica, sans-serif;
 }
@@ -43,7 +83,7 @@ h4{  /* subtítulos das seções */
 
 h5 {  /* palavras auxiliares aos títulos */
 	color: orange;
-	font-family: 'gilroyLight', Helvetica, sans-serif;
+	font-family: 'gilroylight', Helvetica, sans-serif;
 }
 
 
@@ -64,6 +104,50 @@ dentro de classes "cordelicias" */
 	height: 20vw;
 	width: 20vw;
 }
+
+
+/* tira o underline dos links */
+a {
+	text-decoration: none;
+}
+
+/* seleciona todos textos dentro dos botões laranjas */
+a h3 {
+	background-color: orange;
+	color: white;
+	border: solid white 1px;
+	padding: 5px;
+	text-align: center;
+}
+
+/* hover: pra quando passar o mouse em cima */
+/* active: pra quando a pessoa segurar o botão com o mouse ou toutch */
+a h3:hover,
+a h3:active {
+	background-color: white;
+	color: orange;
+	border: solid orange 2px;
+}
+
+
+/* tamanho dos ícones dos editais */
+/* falta upar e linkar as imagens certas */
+/* os que lene fez */
+.editais-box img { 
+	width: 15%;
+}
+
+/* coloca o nome dos editais ao lado direito dos icones */
+/* se fosse só inline não dava pra colocar altura e largura */
+/* o inline-block deixa */
+.editais-box h4 {
+	display: inline-block;
+}
+
+
+
+
+
 
 
 .encontro-box,
